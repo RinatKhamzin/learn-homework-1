@@ -27,6 +27,8 @@ def main():
     elif len(line1) > len(line2):
         return '2'
     
+    else:
+      return 'Нет подходящего условия'
 
 if __name__ == "__main__":
     print(main())
